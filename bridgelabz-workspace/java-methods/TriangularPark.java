@@ -10,17 +10,17 @@ public class TriangularParkRun {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         // Taking user input for triangle sides
         System.out.print("Enter side 1 (meters): ");
-        double side1 = scanner.nextDouble();
+        double side1 = sc.nextDouble();
         
         System.out.print("Enter side 2 (meters): ");
-        double side2 = scanner.nextDouble();
+        double side2 = sc.nextDouble();
         
         System.out.print("Enter side 3 (meters): ");
-        double side3 = scanner.nextDouble();
+        double side3 = sc.nextDouble();
         
         // Checking if the sides form a valid triangle
         if (side1 + side2 > side3 && side1 + side3 > side2 && side2 + side3 > side1) {
